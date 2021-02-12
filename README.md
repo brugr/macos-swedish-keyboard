@@ -1,5 +1,6 @@
 <h1 align="center">A normal Swedish keyboard layout for macOS</a>
-<p align="center"><img width="70%" src="https://i.imgur.com/jhH6qzx.gif"></p>
+
+<p align="center"><img width="70%" src="https://i.imgur.com/UTkPiVs.gif"></p>
 
 ## About
 
