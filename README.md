@@ -1,4 +1,5 @@
-# A normal Swedish keyboard layout for macOS
+<h1 align="center">A normal Swedish keyboard layout for macOS</a>
+<p align="center"><img width="70%" src="https://i.imgur.com/jhH6qzx.gif"></p>
 
 ## About
 
@@ -14,7 +15,7 @@ Copy the `.keylayout` files to
 	/Library/Keyboard Layouts (All users)
 	~/Library/Keyboard Layouts (Only current user)
 	
-and restart. You can then choose the 'Swedish - Normal' layout from System Preferences.
+and restart your Mac. You can then choose the 'Swedish - Normal' layout from System Preferences.
 
 Note that if you don't copy them to `/Library/Keyboard Layouts` then you won't be able to use them on the lock screen and in password dialoges.
 
