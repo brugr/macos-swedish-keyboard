@@ -1,40 +1,23 @@
-# Improved Swedish Keyboard Layout for OS X
+# A normal Swedish keyboard layout for macOS
 
 ## About
 
-This is my personal keyboard layout modified from 'Swedish Pro' using Ukelele. The main goal is to fix my annoyances with the standard layout, mostly making it more like standard Windows/Linux layouts which I find better for programming.
+My keyboard layout made to be as similar to a normal Windows/Linux keyboard layout.
+Made using [Ukelele](https://software.sil.org/ukelele/) and forked from [PetorSFZ/MacOSX-Improved-Swedish-Keyboard-Layout](https://github.com/PetorSFZ/MacOSX-Improved-Swedish-Keyboard-Layout).
 
 ## Installation
 
-Place files in
+Save [this link](https://github.com/brugr/macos-swedish-keyboard/archive/master.zip) and unextract it.
+
+Copy the `.keylayout` files to
 
 	/Library/Keyboard Layouts (All users)
 	~/Library/Keyboard Layouts (Only current user)
 	
-and restart. You can then choose the 'Swedish - SFZ' layout from System Preferences.
+and restart. You can then choose the 'Swedish - Normal' layout from System Preferences.
 
-## Changes
+Note that if you don't copy them to `/Library/Keyboard Layouts` then you won't be able to use them on the lock screen and in password dialoges.
 
-### {, } on 7 and 0.
+## Difference between Normal and Normal-Fix
 
-Simply the standard behaviour on Windows and Linux.
-
-### \ on + and | on <
-
-Like above simply the standard behaviour on Windows and Linux.
-
-### ≤, <, >, ≥ on 7, 8, 9, 0
-
-Shift + Option + 7,8,9,0 writes ≤, <, >, ≥ respectively. This change is mostly because ≤ is no longer reachable on the < key. It also hinders you from trying to access {, } the normal OS X way, which in my case is a feature.
-
-### ≈, ≠ on 6
-
-These keys could no longer be reached so I placed them on 6. It previously only duplicated symbols from the § key.
-
-### ™ on <
-
-Having only ≤ available on < seemed a bit weird, so I opted to replace it with the ™ symbol.
-
-### (Incomplete) Exponents on ^ + key
-
-For example, pressing ^ and then 2 writes ². The reason this is incomplete is because I couldn't find superscript unicode codes for all characters. If you can find a complete list I would really appreciate if you sent it to me, or even better, add them to layout and make a pull request. :)
+The only difference between Normal and Normal-Fix is the placement of the `§ (½)` and `< (>)` keys. Normal has them in the correct spot meanwhile Normal-Fix has them reversed. I only made it because my laptop keyboard has those keys reversed.
